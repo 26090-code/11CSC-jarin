@@ -1,13 +1,11 @@
-.parent {
-display: grid;
-grid-template-columns: repeat(11, 1fr);
-grid-template-rows: repeat(11, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
+h1{
+    color: blue;
 }
 
-.div1 { grid-area: 1 / 1 / 2 / 12; }
-.div2 { grid-area: 11 / 1 / 12 / 12; }
-.div3 { grid-area: 2 / 1 / 5 / 12; }
-.div4 { grid-area: 5 / 1 / 8 / 12; }
-.div5 { grid-area: 8 / 1 / 11 / 12; }
+
+body{
+background-color:#FFFAF0;
+}
+
+
+
