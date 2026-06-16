@@ -32,3 +32,16 @@ body {
 .Navigation a:hover {
   color: black;
 }
+
+.Navigation .logo {
+    margin-right: auto;
+}
+
+.Navigation .search {
+    margin-right: auto;
+}
+h1 {
+    font:TT Barrels;
+    align-items:center;
+
+}
