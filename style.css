@@ -82,7 +82,7 @@ input[type=submit] {
 
 
 input[type=submit]:hover {
-  background-color:#D3D4AA ;
+  background-color: #383B1F;
 }
 
 
@@ -94,20 +94,28 @@ input[type=submit]:hover {
 .div2 { grid-area: 1 / 1 / 5 / 3; }
 .div3 { grid-area: 5 / 1 / 10 / 3; }
 
+.parent {
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+grid-template-rows: repeat(10, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
 
 
-
-<style>
-.footer {
-  position: fixed;
+.div8 { grid-area: 9 / 1 / 11 / 11;
+         position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
+  background-color: #737945;
+  }
+h2{
+ text position:center;
 }
-</style>
+
+
+
 
 
 
