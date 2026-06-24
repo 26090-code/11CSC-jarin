@@ -56,28 +56,12 @@ h1 {
     box-sizing: border-box;
 }
 
-body {
-    font-family: Georgia, serif;
-    color: #333;
-    background-color: #ffffff;
-}
 
-/* Hero Section */
-.hero-section {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
 
-.hero-image {
-    width: 100%;
-    display: block;
-    height: 350px;
-    object-fit: cover;
-}
+
 
 /* Conservation Section */
-.first head {
+.first-head {
     padding: 40px 20px;
     text-align: center;
 }
@@ -91,7 +75,7 @@ body {
     display: inline-block;
 }
 
-.card-container {
+.card-box {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -103,7 +87,7 @@ body {
 .info-card {
     background: #fff;
     border: 1px solid #e0e0e0;
-    padding: 15px;
+    padding: 20px;
     width: 300px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
@@ -157,7 +141,7 @@ body {
 
 /* Action Grid Section */
 .grid-section {
-    background-color: #cbd5c5; /* Sage green background matching the image */
+    background-color:#D3D4AA ; /* Sage green background matching the image */
     padding: 30px 20px 40px 20px;
 }
 
@@ -249,24 +233,6 @@ input[type=submit]:hover {
 .div2 { grid-area: 1 / 1 / 5 / 3; }
 .div3 { grid-area: 5 / 1 / 10 / 3; }
 
-.parent {
-display: grid;
-grid-template-columns: repeat(10, 1fr);
-grid-template-rows: repeat(10, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-}
 
-
-.div8 { grid-area: 9 / 1 / 11 / 11;
-         position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #737945;
-  }
-.div8 h2{
- text position:center;
-}
 
 
