@@ -289,18 +289,18 @@ input[type=submit]:hover {
 }
 
 body {
-    background: #ffffff;
+    background:#FFFDF5 ;
 }
 
 
 
-/* Hero */
-.hero {
+
+.hello {
     position: relative;
 }
 
 
-.hero-text {
+.hello-text {
     position: absolute;
     bottom: 25px;
     left: 35px;
@@ -309,29 +309,29 @@ body {
     width: 1915px;
 }
 
-.hero-text h1 {
+.hello-text h1 {
     font-size: 40px;
     color: #222;
 }
 
-.hero-text p {
+.hello-text p {
     font-size: 22px;
     color: #666;
 }
 
 /* About */
-.about {
-    background: #f7f3e9;
+.about1 {
+    background: #F7F3E9;
     padding: 50px;
 }
 
-.about p {
+.about1 p {
     margin-bottom: 35px;
     color: #444;
     font-size: 18px;
 }
 
-/* Featured */
+
 .featured {
     background: #f7f3e9;
     text-align: center;
@@ -357,9 +357,9 @@ body {
 }
 
 button {
-    background: #62723a; /* Restored matching brand green based on hover state */
+    background: #62723a;
     color: white;
-    padding: 14px 28px;  /* Added horizontal padding for better look */
+    padding: 14px 28px;
     border: none;
     border-radius: 8px;
     font-size: 18px;
@@ -373,7 +373,15 @@ button:hover {
 
 
 
+/*foooter*/
+footer{
+    background:red;
+    color:white;
+    display:
+    justify-content:space around;
+    padding:20px;
 
+}
 
 
 
