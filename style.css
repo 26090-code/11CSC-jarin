@@ -377,27 +377,27 @@ button:hover {
 footer{
     background:red;
     color:white;
-    display:
-    justify-content:space around;
+    display:flex;
+    justify-content:space-around;
     padding:20px;
 
 }
 
 /*--- Global Styles & Variables ---*/
 :root {
-  --bg-color: #f6fef4;           /* Soft light-sage background */
-  --accent-green: #cbd169;      /* Middle sage green */
-  --dark-green: #586941;        /* Deep forest text/button green */
+  --bg-color: #f6fef4;
+  --accent-green: #cbd169;
+  --dark-green: #586941;
   --font-serif: 'Playfair Display', Georgia, serif;
   --font-sans: 'Plus Jakarta Sans', sans-serif;
-  --text-dark: #3c3323;         /* Dark olive for primary body text */
+  --text-dark: #3c3323;
 }
 
 
 body3 {
-  background-color: var(--bg-color);
+  background-color:#f8f4e6 ;
   font-family: var(--font-sans);
-  color: var(--text-dark);
+  color: black;
   display: flex;
   justify-content: center;
   padding: 40px 20px;
@@ -434,8 +434,7 @@ body3 {
 .hero-illustration {
   width: 150px;
   height: 150px;
-  /* Replace URL below with your branch/leaf line art path */
-  background-image: url('https://via.placeholder.com/150x150?text=Leaf+Art');
+
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -443,7 +442,7 @@ body3 {
 }
 
 .issue {
-  background-color: var(--accent-green);
+  background-color:#b8b896 ;
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   align-items: center;
@@ -469,7 +468,7 @@ body3 {
 
 .btn-learn {
   display: inline-block;
-  background-color: var(--dark-green);
+  background-color: #737945;
   color: #ffffff;
   text-decoration: none;
   padding: 10px 24px;
@@ -479,7 +478,7 @@ body3 {
 }
 
 .btn-learn:hover {
-  background-color: #415032;
+  background-color:#595d35 ;
 }
 
 .image img {
@@ -495,7 +494,7 @@ body3 {
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 1px;
-  color: var(--dark-green);
+  color: black;
   margin-bottom: 40px;
   text-transform: uppercase;
 }
@@ -512,7 +511,7 @@ body3 {
 }
 
 .impact2 .icon-wrapper {
-  background-color: var(--accent-green);
+  background-color:#dadbbc;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -527,7 +526,7 @@ body3 {
   font-family: var(--font-serif);
   font-size: 1.3rem;
   font-weight: 400;
-  margin-bottom: 10px;
+
 }
 
 .impact2 p {
@@ -537,31 +536,31 @@ body3 {
   padding: 0 10px;
 }
 
-.action-section {
+.action-section1 {
   margin-bottom: 40px;
 }
 
-.action-grid {
+.action-grid1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
-.action-card {
-  background-color: var(--accent-green);
+.action-card1 {
+  background-color: #d3d4b6;
   display: flex;
   align-items: center;
   overflow: hidden;
   height: 90px;
 }
 
-.action-card img {
+.action-card1 img {
   width: 90px;
   height: 100%;
   object-fit: cover;
 }
 
-.action-text {
+.action-text1 {
   font-family: var(--font-serif);
   flex: 1;
   padding-right: 10px;
@@ -570,28 +569,12 @@ body3 {
   color: var(--dark-green);
 }
 
-/*--- Responsive Adjustments ---*/
-@media (max-width: 768px) {
-  .featured-issue,
-  .impact-grid,
-  .action-grid {
-    grid-template-columns: 1fr;
-  }
 
-  .section-hero {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .hero-illustration {
-    align-self: flex-end;
-  }
-
-  .action-card {
+  .action-card1 {
     height: auto;
   }
 
-  .action-card img {
+  .action-card1 img {
     width: 120px;
     height: 120px;
   }
