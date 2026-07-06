@@ -373,16 +373,6 @@ button:hover {
 
 
 
-/*foooter*/
-footer{
-    background:red;
-    color:white;
-    display:flex;
-    justify-content:space-around;
-    padding:20px;
-
-}
-
 /*--- Global Styles & Variables ---*/
 :root {
   --bg-color: #f6fef4;
@@ -547,6 +537,14 @@ body3 {
 }
 
 .action-card1 {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+.action-card1 {
   background-color: #d3d4b6;
   display: flex;
   align-items: center;
@@ -582,10 +580,67 @@ body3 {
 
 
 
+.footer-flower {
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  font-size: 2.5rem;
+  opacity: 0.3;
+}
 
 
 
 
 
 
+/*foooter*/
+footer {
+    background: #737945;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+}
+.div h4 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 
+
+
+
+
+
+.social-icons a {
+  color: white;
+  font-size: 1.4rem;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+    opacity:1;
+  color: #ffffff;
+}
+
+.fa-instagram{
+    color:black;
+
+}
+.fa-whatsapp{
+    color:black;
+}
+.fa-twitter{
+    color:black;
+}
+.fa-share{
+    color:black;
+}
