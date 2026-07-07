@@ -186,7 +186,7 @@ h1 {
 
 
 
-
+/* begining of contact page*/
 
 .parent {
 display: grid;
@@ -230,7 +230,7 @@ input[type=submit]:hover {
   background-color: #D3D4AA;
   padding: 20px;
 }
-
+/* end of contact page */
 
 .about {
   display: grid;
@@ -567,6 +567,23 @@ body3 {
   color: var(--dark-green);
 }
 
+.action-card1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.action-card1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
 
   .action-card1 {
     height: auto;
@@ -576,7 +593,11 @@ body3 {
     width: 120px;
     height: 120px;
   }
-
+.action-card1 a {
+    color: #d3d4b6;
+    font-size: 1.6rem;
+    font-family: Georgia, serif;
+}
 
 
 
@@ -644,3 +665,4 @@ footer {
 .fa-share{
     color:black;
 }
+
