@@ -138,7 +138,7 @@ h1 {
     font-style: italic;
 }
 
-/* Action Grid Section */
+/* start of issue page */
 .grid-section {
     background-color:#D3D4AA ; /* Sage green background matching the image */
     padding: 30px 20px 40px 20px;
@@ -178,7 +178,7 @@ h1 {
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
 }
 
-
+/* end of issue page*/
 
 
 
@@ -398,7 +398,7 @@ button:hover {
   width: 100%;
 }
 
-/*--- Section 1: Hero Header ---*/
+/*--- Section 1: Header ---*/
 .section2 {
   display: flex;
   justify-content: space-between;
@@ -610,11 +610,7 @@ button:hover {
 }
 
 
-
-
-
-
-/*foooter*/
+/*footer*/
 footer {
     background: #737945;
     color: black;
@@ -665,4 +661,4 @@ footer {
 .fa-share{
     color:black;
 }
-
+/* end of footer */
